@@ -21,8 +21,8 @@ export default class OpenAIProvider extends BaseProvider {
 
     // GPT-4o Mini: 128k context, cost-effective alternative
     {
-      name: 'gpt-4o-mini',
-      label: 'GPT-4o Mini',
+      name: 'gpt-5.2-2025-12-11',
+      label: 'gpt-5.2-2025-12-11',
       provider: 'OpenAI',
       maxTokenAllowed: 128000,
       maxCompletionTokens: 4096,
@@ -39,8 +39,8 @@ export default class OpenAIProvider extends BaseProvider {
 
     // o1-preview: 128k context, 32k output limit (reasoning model)
     {
-      name: 'o1-preview',
-      label: 'o1-preview',
+      name: 'gpt-5-nano-2025-08-07',
+      label: 'gpt-5-nano-2025-08-07',
       provider: 'OpenAI',
       maxTokenAllowed: 128000,
       maxCompletionTokens: 32000,
